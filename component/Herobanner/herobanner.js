@@ -29,3 +29,16 @@ const Herobanner = () => {
 };
 
 export default Herobanner;
+
+export const getStaticProps = async () => {
+  const res = await fetch(
+    ""
+  );
+  const imgData = await res.json();
+
+  return {
+    props: {
+      imgData,
+    },
+  };
+};

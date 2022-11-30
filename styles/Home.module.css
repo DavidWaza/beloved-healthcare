@@ -4,6 +4,7 @@
 .container {
   background-color: #f3f3f3;
 }
+
 /* NAVBAR */
 .navWrapper {
   height: 20vh;
@@ -406,6 +407,73 @@
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
   color: #212121;
+}
+
+/* FEATURES */
+.featuresContainer {
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669834994/pexels-kampus-production-7551685_oag3rk.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 10%;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+
+.overlayFeatures {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+  opacity: 0.8;
+}
+.featuresContent > p {
+  color: #eee;
+  opacity: 0.9;
+  padding: 10px 50px;
+  
+}
+.featuresContent > p:nth-child(1) {
+  font-size: 2em;
+  padding-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.058px;
+}
+.featuresContent > p:nth-child(2) {
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.058px;
+}
+.featuresContent >p:nth-child(3) {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 0.058px;
+  margin-top: -20px;
+}
+.checked {
+  padding: 0px 50px;
+}
+.checkedHeader > p:nth-child(1) {
+  font-size: 1.8em;
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 0.058px;
+}
+.checkedHeader >p {
+  position: relative;
+  left: 70px;
+  top: 10px;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.checkedHeader::before {
+  content: url("/check.png");
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
 }
 
 /* MEDIA QUERIES */

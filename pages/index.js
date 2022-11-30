@@ -21,11 +21,10 @@ export default function Home() {
             name="description"
             content="Home service healthcare, home service"
           />
-          <link rel="icon" href="/favicon.ico" />
         </Head>
         <SmallNavbar />
         <BigNavbar />
-        <Herobanner />
+        <Herobanner  />
         <Care />
         <Service />
         <AboutCare />
@@ -34,3 +33,4 @@ export default function Home() {
     </Suspense>
   );
 }
+
