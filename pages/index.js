@@ -3,6 +3,7 @@ import Care from "../component/CareModule/care";
 import BigNavbar from "../component/Header/bigNavbar";
 import SmallNavbar from "../component/Header/smallNavbar";
 import Herobanner from "../component/Herobanner/herobanner";
+import Service from "../component/Services/service";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <BigNavbar />
       <Herobanner />
       <Care />
+      <Service />
     </div>
   );
 }

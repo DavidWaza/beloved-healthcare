@@ -19,7 +19,7 @@ const Care = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
                   Ut enim ad minim nostrud.
                 </p>
-                <Button title="Know more" />
+                <Button title="Get a specialist" />
               </div>
             </div>
           </Col>
