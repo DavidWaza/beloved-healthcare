@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@500;600&display=swap');
 
+/* BODY */
+.container {
+  background-color: #f3f3f3;
+}
 /* NAVBAR */
 .navWrapper {
   height: 20vh;
@@ -354,8 +358,9 @@
 }
 
 .serviceCardBlue {
-  background: linear-gradient(-135deg,#97237c,#441038) #97237c no-repeat;
+  background: linear-gradient(-135deg, #97237c, #441038) #97237c no-repeat;
 }
+
 .serviceCardBlue:hover {
   transition: all 0.5s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
@@ -364,14 +369,16 @@
 }
 
 .serviceCardTeal {
-  background: linear-gradient(-135deg,#34beb9,#1a7673) #1a7673 no-repeat;
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
 }
+
 .serviceCardTeal:hover {
   transition: all 0.5s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
   transform: scale(1.04);
 }
+
 .serviceCardWhite:hover {
   transition: all 0.5s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
@@ -380,24 +387,27 @@
 }
 
 /* ABOUT CARE MODULE */
-.AbtcareImg{
+.AbtcareImg {
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669830444/pexels-kampus-production-7551610_pt9hoh.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: local;
   height: 50vh;
 }
-.amenities > p:nth-child(1) {
+
+.amenities>p:nth-child(1) {
   font-weight: bold;
   font-size: 1.3em;
   font-family: "Montserrat", sans-serif;
   color: #41294a;
 }
-.amenities > p:nth-child(2) {
+
+.amenities>p:nth-child(2) {
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
   color: #212121;
 }
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .navWrapper {
@@ -511,18 +521,21 @@
     color: #fff;
   }
 
-.careHeader {
-  opacity: 0.9;
-}
-.AbtcareImg {
-  display: none;
-}
-.amenities > p:nth-child(1) {
-  color: #0094a7;
-}
-.amenities > p:nth-child(2) {
-  color: #fff;
-}
+  .careHeader {
+    opacity: 0.9;
+  }
+
+  .AbtcareImg {
+    display: none;
+  }
+
+  .amenities>p:nth-child(1) {
+    color: #0094a7;
+  }
+
+  .amenities>p:nth-child(2) {
+    color: #fff;
+  }
 }
 
 @media screen and (width: 820px) {
