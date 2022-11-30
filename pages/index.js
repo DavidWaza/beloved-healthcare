@@ -1,29 +1,36 @@
+import { lazy, Suspense } from "react";
 import Head from "next/head";
-import AboutCare from "../component/AboutCare/aboutCare";
-import Care from "../component/CareModule/care";
-import BigNavbar from "../component/Header/bigNavbar";
-import SmallNavbar from "../component/Header/smallNavbar";
-import Herobanner from "../component/Herobanner/herobanner";
-import Service from "../component/Services/service";
+const AboutCare = lazy(() => import("../component/AboutCare/aboutCare"));
+const Care = lazy(() => import("../component/CareModule/care"));
+const Features = lazy(() => import("../component/Features/features"));
+const BigNavbar = lazy(() => import("../component/Header/bigNavbar"));
+const SmallNavbar = lazy(() => import("../component/Header/smallNavbar"));
+const Herobanner = lazy(() => import("../component/Herobanner/herobanner"));
+const Service = lazy(() => import("../component/Services/service"));
 import styles from "../styles/Home.module.css";
+
+const renderLoader = () => <p>Loading..</p>;
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Beloved HealthCare</title>
-        <meta
-          name="description"
-          content="Home service healthcare, home service"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <SmallNavbar />
-      <BigNavbar />
-      <Herobanner />
-      <Care />
-      <Service />
-      <AboutCare />
-    </div>
+    <Suspense fallback={renderLoader()}>
+      <div className={styles.container}>
+        <Head>
+          <title>Beloved HealthCare</title>
+          <meta
+            name="description"
+            content="Home service healthcare, home service"
+          />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <SmallNavbar />
+        <BigNavbar />
+        <Herobanner />
+        <Care />
+        <Service />
+        <AboutCare />
+        <Features />
+      </div>
+    </Suspense>
   );
 }
