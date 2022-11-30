@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutCare from "../component/AboutCare/aboutCare";
 import Care from "../component/CareModule/care";
 import BigNavbar from "../component/Header/bigNavbar";
 import SmallNavbar from "../component/Header/smallNavbar";
@@ -22,6 +23,7 @@ export default function Home() {
       <Herobanner />
       <Care />
       <Service />
+      <AboutCare />
     </div>
   );
 }

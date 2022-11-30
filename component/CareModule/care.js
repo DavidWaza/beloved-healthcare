@@ -8,8 +8,9 @@ const Care = () => {
     <>
       <Container>
         <Row className="g-0">
-          <Col sm={6}>
+          <Col sm={8}>
             <div className={styles.careContainer}>
+              <div className={styles.overlayCare}></div>
               <div className={styles.careHeader}>
                 <p>We care of you</p>
                 <p> Take care of health anywhere, anytime.</p>
@@ -23,7 +24,7 @@ const Care = () => {
               </div>
             </div>
           </Col>
-          <Col sm={6}>
+          <Col sm={4}>
             <div className={styles.careContainer}>
               <div className={styles.careImg}></div>
             </div>
