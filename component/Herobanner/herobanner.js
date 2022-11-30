@@ -10,7 +10,7 @@ const Herobanner = () => {
         <div className={styles.overlay}></div>
         <div className={styles.heroContent}>
           <p>
-            You can't always be there. <br /> But we can.
+            You cant always be there. <br /> But we can.
           </p>
           <p>
             {" "}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Care from "../component/CareModule/care";
 import BigNavbar from "../component/Header/bigNavbar";
 import SmallNavbar from "../component/Header/smallNavbar";
 import Herobanner from "../component/Herobanner/herobanner";
@@ -18,6 +19,7 @@ export default function Home() {
       <SmallNavbar />
       <BigNavbar />
       <Herobanner />
+      <Care />
     </div>
   );
 }

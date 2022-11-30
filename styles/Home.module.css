@@ -251,7 +251,38 @@
   clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
 }
 
+/* CARE MODULE */
+.careContainer {
+  margin-top: 15%;
+  background-color: #f8f8f8;
+}
+.careHeader {
+  padding: 10px 50px;
 
+}
+.careHeader > p:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  color: #41294a;
+  text-transform: uppercase;
+}
+.careHeader > p:nth-child(2) {
+  font-family: "Montserrat";
+  font-size: 3em;
+  color: #212121;
+}
+.careHeader>p:nth-child(3) {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+.careImg {
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669810723/pexels-kampus-production-7551667_nkfw4y.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  height: 73vh;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .navWrapper {
