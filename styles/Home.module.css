@@ -449,7 +449,7 @@
 }
 .featuresContent >p:nth-child(3) {
   font-family: "DM Sans", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.23em;
   letter-spacing: 0.058px;
   margin-top: -20px;
 }
@@ -457,25 +457,58 @@
   padding: 0px 50px;
 }
 .checkedHeader > p:nth-child(1) {
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: #fff;
   opacity: 0.9;
   letter-spacing: 0.058px;
 }
 .checkedHeader >p {
-  position: relative;
-  left: 70px;
-  top: 10px;
+  top: -55px;
+  left: 60px;
   font-family: "Montserrat", sans-serif;
+  position: relative;
   
+}
+.checkedHeader {
+  position: relative;
+  right: 10px;
 }
 .checkedHeader::before {
   content: url("/check.png");
   width: 100%;
   opacity: 0.9;
-  position: absolute;
 }
 
+/* APPOINTMENT */
+.apointContainer {
+  background-color: #f3f3f3;
+}
+.formControl > form {
+  display: flex;
+  padding-right: 30px;
+  padding-top: 5%;
+}
+.formControl >form>input {
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #0094a7;
+  margin-left: 10px;
+  width: 100%;
+}
+.appointButton {
+  padding:16px;
+  background-color: #97237c;
+  color: white;
+  border: none;
+  transition: all 0.5s ease;
+}
+.appointButton:hover {
+  background-color: #441038;
+  transition: all 0.5s ease;
+}
+.appointButtonContainer {
+  padding: 40px 10px;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .navWrapper {
@@ -604,7 +637,14 @@
   .amenities>p:nth-child(2) {
     color: #fff;
   }
+  .formControl > form {
+    display: inline-block;
+  }
+  .formControl > form > input {
+    margin-top: 20px;
+  }
 }
+
 
 @media screen and (width: 820px) {
   .navWrapper {

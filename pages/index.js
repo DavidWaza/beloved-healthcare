@@ -7,6 +7,7 @@ const BigNavbar = lazy(() => import("../component/Header/bigNavbar"));
 const SmallNavbar = lazy(() => import("../component/Header/smallNavbar"));
 const Herobanner = lazy(() => import("../component/Herobanner/herobanner"));
 const Service = lazy(() => import("../component/Services/service"));
+const Appointment = lazy(() => import("../component/Appointment/appointment"))
 import styles from "../styles/Home.module.css";
 
 const renderLoader = () => <p>Loading..</p>;
@@ -29,6 +30,7 @@ export default function Home() {
         <Service />
         <AboutCare />
         <Features />
+        <Appointment />
       </div>
     </Suspense>
   );
