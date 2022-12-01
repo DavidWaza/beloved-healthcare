@@ -475,6 +475,7 @@
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
+
 .centralized {
   display: grid;
   place-content: center;
@@ -588,6 +589,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
+
 .span {
   color: #ff8a01;
 }
@@ -728,20 +730,24 @@
   .formControl>form>input {
     margin-top: 20px;
   }
-  .featuresContent>p:nth-child(1){
+
+  .featuresContent>p:nth-child(1) {
     font-size: 1.3em;
     text-align: center;
   }
+
   .featuresContent>p:nth-child(2) {
     font-size: 1.6em;
     text-align: center;
   }
+
   .featuresContent>p:nth-child(3) {
     font-size: 1.1em;
     text-align: center;
   }
-  .checkedHeader::before {
 
+  .centralized {
+    display: inline-block;
   }
 }
 
