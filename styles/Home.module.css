@@ -577,7 +577,9 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-
+}
+.span {
+  color: #ff8a01;
 }
 
 /* MEDIA QUERIES */

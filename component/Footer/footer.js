@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className={styles.creator}>
               <Link href="">
-                created by <span>davidWaza</span>
+                created by <span className={styles.span}>davidWaza</span>
               </Link>
             </div>
           </div>
