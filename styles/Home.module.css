@@ -463,18 +463,21 @@
 }
 
 .checkedHeader>p:nth-child(1) {
-  font-size: 1.6em;
+  padding-top: 10px;
+  font-size: 1.2em;
   color: #fff;
   opacity: 0.9;
   letter-spacing: 0.058px;
 }
 
 .checkedHeader>p {
-  top: -55px;
   left: 60px;
   font-family: "Montserrat", sans-serif;
   position: relative;
-
+}
+.centralized {
+  display: grid;
+  place-content: center;
 }
 
 .checkedHeader {
@@ -483,7 +486,14 @@
 }
 
 .checkedHeader::before {
-  content: url("/check.png");
+  background-image: url('/check.png');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  content: "";
   width: 100%;
   opacity: 0.9;
 }
@@ -717,6 +727,21 @@
 
   .formControl>form>input {
     margin-top: 20px;
+  }
+  .featuresContent>p:nth-child(1){
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .featuresContent>p:nth-child(2) {
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .featuresContent>p:nth-child(3) {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .checkedHeader::before {
+
   }
 }
 

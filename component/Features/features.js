@@ -19,7 +19,7 @@ const Features = () => {
           </p>
           <div className={styles.checked}>
             <Row>
-              <Col sm={6}>
+              <Col sm={6} className={styles.centralized}>
                 <div className={styles.checkedHeader}>
                   <p>Top Nurses</p>
                 </div>
@@ -31,9 +31,9 @@ const Features = () => {
               </Col>
             </Row>
             <Row>
-              <Col sm={6}>
+              <Col sm={6} className={styles.centralized}>
                 <div className={styles.checkedHeader}>
-                  <p>Affordable Prices</p>
+                  <p>Affordable</p>
                 </div>
               </Col>
               <Col sm={6}>
