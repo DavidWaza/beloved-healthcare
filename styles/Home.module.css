@@ -257,7 +257,7 @@
 }
 
 /* CARE MODULE */
-.careContainer{
+.careContainer {
   margin-top: 15%;
   background-color: #f8f8f8;
 }
@@ -498,6 +498,7 @@
 .appointWrapper {
   margin-top: 15%;
 }
+
 .apointContainer {
   padding-bottom: 50px;
 }
@@ -765,15 +766,17 @@
   .centralized {
     display: inline-block;
   }
+
   .appointHeader>p:nth-child(1) {
     font-size: 1.2em;
     text-align: center;
   }
-  
+
   .appointHeader>p:nth-child(2) {
     font-size: 2em;
     text-align: center;
   }
+
   .careHeader>p:nth-child(1) {
     font-size: 1.2em;
     text-align: center;
@@ -788,10 +791,11 @@
     font-size: 17px;
     text-align: center;
   }
+
   .serviceContent,
-.serviceText {
-  text-align: center;
-}
+  .serviceText {
+    text-align: center;
+  }
 }
 
 
