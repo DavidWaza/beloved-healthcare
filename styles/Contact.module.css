@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@500;600&display=swap');
+
+.contactBg {
+    background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669911607/pexels-karolina-grabowska-4386467_fqwsau.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+}
+
+.overlayContact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+    opacity: 0.6;
+}
+.formWrapper {
+    margin-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgWrapper {
+    background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668503304/matt-jones-9CPAjGVB378-unsplash_aoaw8a.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.headerTitle>p:nth-child(1) {
+    font-size: 30.89px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.45px;
+}
+
+.headerTitle>p:nth-child(2) {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-top: -10px;
+}
+
+.input {
+    border: 1px solid #c7cad1;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13.98px;
+    margin: 10px 0px;
+}
+
+.textArea {
+    width: 100%;
+    border: 1px solid #c7cad1;
+    background-color: #fff;
+    padding: 14px 16px;
+    height: 96px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14.09px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.buttonSubmit>button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #41294a;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13.98px !important;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    line-height: 16px !important;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 30px !important;
+    display: inline-block;
+    border-radius: 4px;
+    border: none !important;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .imgWrapper {
+        display: none;
+    }
+
+    .headerTitle {
+        text-align: center;
+    }
+
+    .col1 {
+        height: 20vh;
+    }
+}
