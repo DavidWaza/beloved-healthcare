@@ -10,7 +10,7 @@ const Appointment = () => {
         <Container className={styles.apointContainer}>
           <Row className="g-0">
             <Col sm={6}>
-              <div className={styles.careContainer}>
+              <div className={styles.appointWrapper}>
                 <div className={styles.overlayCare}></div>
                 <div className={styles.careHeader}>
                   <p>apointment</p>
@@ -19,7 +19,7 @@ const Appointment = () => {
               </div>
             </Col>
             <Col sm={6}>
-              <div className={styles.careContainer}>
+              <div className={styles.appointWrapper}>
                 <div className={styles.formWrapper}>
                   <div className={styles.formControl}>
                     <form>

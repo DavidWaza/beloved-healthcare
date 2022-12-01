@@ -257,7 +257,7 @@
 }
 
 /* CARE MODULE */
-.careContainer {
+.careContainer,.appointWrapper {
   margin-top: 15%;
   background-color: #f8f8f8;
 }
