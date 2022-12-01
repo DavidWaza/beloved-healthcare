@@ -17,7 +17,7 @@ const AboutCare = () => {
             <div className={styles.overlayCare}></div>
             <div className={styles.careHeader}>
               <p>About us</p>
-              <p> We Take Care of Your Problems Carefully</p>
+              <p> We Take Care of Your Problems Carefully.</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -33,7 +33,9 @@ const AboutCare = () => {
                 <Col sm={6}>
                   <div className={styles.amenities}>
                     <p>Weekly Report</p>
-                    <p>We perform weekly routine checkout to keep up with you.</p>
+                    <p>
+                      We perform weekly routine checkout to keep up with you.
+                    </p>
                   </div>
                 </Col>
               </Row>

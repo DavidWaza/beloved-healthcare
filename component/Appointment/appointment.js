@@ -13,7 +13,7 @@ const Appointment = () => {
               <div className={styles.appointWrapper}>
                 <div className={styles.appointHeader}>
                   <p>appointment</p>
-                  <p>Make quick Consultancy With our Experts</p>
+                  <p>Make quick Consultancy With our Experts.</p>
                 </div>
               </div>
             </Col>

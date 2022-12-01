@@ -12,7 +12,7 @@ const Care = () => {
             <div className={styles.careContainer}>
               <div className={styles.overlayCare}></div>
               <div className={styles.careHeader}>
-                <p>We care of you</p>
+                <p>We care for you</p>
                 <p> Take care of health anywhere, anytime.</p>
                 <p>
                   This a dummy text pending till we get an actual information

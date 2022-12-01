@@ -12,7 +12,7 @@ const SmallNavbar = () => {
               <Image src="/whatsapp.png" alt="png" width={40} height={40} />
               <div className={styles.listParags}>
                 <p>24/7 Service care</p>
-                <p>090 186 600 95</p>
+                <p>+1 (301) 996-5177</p>
               </div>
             </li>
             <li>
@@ -29,7 +29,7 @@ const SmallNavbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/contact">
                 <Image src="/contactPulse.png" alt="png" width={50} height={50} />
                 <p>Contact us</p>
               </Link>

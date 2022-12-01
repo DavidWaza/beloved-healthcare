@@ -268,9 +268,10 @@
 
 .careHeader>p:nth-child(1) {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #41294a;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 
 .careHeader>p:nth-child(2) {
@@ -401,6 +402,7 @@
   font-size: 1.3em;
   font-family: "Montserrat", sans-serif;
   color: #41294a;
+  padding-top:20px ;
 }
 
 .amenities>p:nth-child(2) {
@@ -438,7 +440,7 @@
 }
 
 .featuresContent>p:nth-child(1) {
-  font-size: 2em;
+  font-size: 1.3em;
   padding-top: 2%;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -509,14 +511,14 @@
 
 .appointHeader>p:nth-child(1) {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #212121;
   text-transform: uppercase;
 }
 
 .appointHeader>p:nth-child(2) {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
+  font-size: 3em;
   color: #212121;
 }
 
