@@ -30,15 +30,12 @@ const Herobanner = () => {
 
 export default Herobanner;
 
-export const getStaticProps = async () => {
-  const res = await fetch(
-    ""
-  );
-  const imgData = await res.json();
-
+export const getServerSideProps = async ({req, res}) => {
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  )
   return {
-    props: {
-      imgData,
-    },
-  };
+    props: {}
+  }
 };
