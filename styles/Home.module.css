@@ -476,11 +476,6 @@
   position: relative;
 }
 
-.centralized {
-  display: grid;
-  place-content: center;
-}
-
 .checkedHeader {
   position: relative;
   right: 10px;
