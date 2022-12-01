@@ -37,7 +37,10 @@ const About = () => {
       <div className={abtStyles.whyUs}>
         <div className={abtStyles.whyUsContent}>
           <p>Our History</p>
-          <p>Our story for the past 3 <br />years</p>
+          <p>
+            Our story for the past 3 <br />
+            years
+          </p>
         </div>
       </div>
     </>

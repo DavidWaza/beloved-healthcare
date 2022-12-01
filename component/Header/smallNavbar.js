@@ -30,7 +30,12 @@ const SmallNavbar = () => {
             </li>
             <li>
               <Link href="/contact">
-                <Image src="/contactPulse.png" alt="png" width={50} height={50} />
+                <Image
+                  src="/contactPulse.png"
+                  alt="png"
+                  width={50}
+                  height={50}
+                />
                 <p>Contact us</p>
               </Link>
             </li>

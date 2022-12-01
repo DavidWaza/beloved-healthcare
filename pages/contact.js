@@ -53,7 +53,7 @@ const Contact = () => {
                 placeholder="Leave us a message"
                 className={Contstyles.textArea}
               />
-              <div  className={Contstyles.buttonSubmit}>
+              <div className={Contstyles.buttonSubmit}>
                 <button>send enquiry</button>
               </div>
             </form>

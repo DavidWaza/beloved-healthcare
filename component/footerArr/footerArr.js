@@ -10,18 +10,18 @@ export const footerArr = [
     title: "Quick links",
     slugOne: "Home",
     slugTwo: "About Us",
-    slugThree: "Contact Us"
+    slugThree: "Contact Us",
   },
   {
     id: 3,
-    title:"Our Services",
+    title: "Our Services",
     slugOne: "Home Care",
     slugTwo: "Intensive Care",
-    slugThree: "Senior Care"
+    slugThree: "Senior Care",
   },
-{
+  {
     id: 4,
     title: "Visit Us",
-    slugOne: "1101 Euclid avenue Cleveland Ohio 44115."
-}
+    slugOne: "1101 Euclid avenue Cleveland Ohio 44115.",
+  },
 ];

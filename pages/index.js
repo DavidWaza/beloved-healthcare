@@ -5,7 +5,7 @@ const Care = lazy(() => import("../component/CareModule/care"));
 const Features = lazy(() => import("../component/Features/features"));
 const Herobanner = lazy(() => import("../component/Herobanner/herobanner"));
 const Service = lazy(() => import("../component/Services/service"));
-const Appointment = lazy(() => import("../component/Appointment/appointment"))
+const Appointment = lazy(() => import("../component/Appointment/appointment"));
 import styles from "../styles/Home.module.css";
 
 const renderLoader = () => <p>Loading..</p>;
@@ -21,7 +21,7 @@ export default function Home() {
             content="Home service healthcare, home service"
           />
         </Head>
-        <Herobanner  />
+        <Herobanner />
         <Care />
         <Service />
         <AboutCare />
@@ -31,4 +31,3 @@ export default function Home() {
     </Suspense>
   );
 }
-
