@@ -257,7 +257,7 @@
 }
 
 /* CARE MODULE */
-.careContainer,.appointWrapper {
+.careContainer{
   margin-top: 15%;
   background-color: #f8f8f8;
 }
@@ -495,9 +495,28 @@
 }
 
 /* APPOINTMENT */
+.appointWrapper {
+  margin-top: 15%;
+}
 .apointContainer {
-  background-color: #f3f3f3;
   padding-bottom: 50px;
+}
+
+.appointWrapper {
+  position: relative;
+}
+
+.appointHeader>p:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.appointHeader>p:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  color: #212121;
 }
 
 .formControl>form {
@@ -712,10 +731,12 @@
 
   .amenities>p:nth-child(1) {
     color: #0094a7;
+    text-align: center;
   }
 
   .amenities>p:nth-child(2) {
     color: #fff;
+    text-align: center;
   }
 
   .formControl>form {
@@ -744,6 +765,33 @@
   .centralized {
     display: inline-block;
   }
+  .appointHeader>p:nth-child(1) {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .appointHeader>p:nth-child(2) {
+    font-size: 2em;
+    text-align: center;
+  }
+  .careHeader>p:nth-child(1) {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .careHeader>p:nth-child(2) {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .careHeader>p:nth-child(3) {
+    font-size: 17px;
+    text-align: center;
+  }
+  .serviceContent,
+.serviceText {
+  text-align: center;
+}
 }
 
 

@@ -11,9 +11,8 @@ const Appointment = () => {
           <Row className="g-0">
             <Col sm={6}>
               <div className={styles.appointWrapper}>
-                <div className={styles.overlayCare}></div>
-                <div className={styles.careHeader}>
-                  <p>apointment</p>
+                <div className={styles.appointHeader}>
+                  <p>appointment</p>
                   <p>Make quick Consultancy With our Experts</p>
                 </div>
               </div>
@@ -33,11 +32,10 @@ const Appointment = () => {
                   </div>
                 </div>
                 <div className={styles.appointButtonContainer}>
-                <button className={styles.appointButton}>
+                  <button className={styles.appointButton}>
                     Make an Appointment
-                </button>
+                  </button>
                 </div>
-                
               </div>
             </Col>
           </Row>
