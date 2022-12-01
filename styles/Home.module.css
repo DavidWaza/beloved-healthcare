@@ -429,50 +429,59 @@
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
   opacity: 0.8;
 }
-.featuresContent > p {
+
+.featuresContent>p {
   color: #eee;
   opacity: 0.9;
   padding: 10px 50px;
-  
+
 }
-.featuresContent > p:nth-child(1) {
+
+.featuresContent>p:nth-child(1) {
   font-size: 2em;
   padding-top: 2%;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.058px;
 }
-.featuresContent > p:nth-child(2) {
+
+.featuresContent>p:nth-child(2) {
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.058px;
 }
-.featuresContent >p:nth-child(3) {
+
+.featuresContent>p:nth-child(3) {
   font-family: "DM Sans", sans-serif;
   font-size: 1.23em;
   letter-spacing: 0.058px;
   margin-top: -20px;
 }
+
 .checked {
   padding: 0px 50px;
 }
-.checkedHeader > p:nth-child(1) {
+
+.checkedHeader>p:nth-child(1) {
   font-size: 1.6em;
   color: #fff;
   opacity: 0.9;
   letter-spacing: 0.058px;
 }
-.checkedHeader >p {
+
+.checkedHeader>p {
   top: -55px;
   left: 60px;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  
+
 }
+
 .checkedHeader {
   position: relative;
   right: 10px;
 }
+
 .checkedHeader::before {
   content: url("/check.png");
   width: 100%;
@@ -482,33 +491,95 @@
 /* APPOINTMENT */
 .apointContainer {
   background-color: #f3f3f3;
+  padding-bottom: 50px;
 }
-.formControl > form {
+
+.formControl>form {
   display: flex;
   padding-right: 30px;
   padding-top: 5%;
 }
-.formControl >form>input {
+
+.formControl>form>input {
   background-color: #fff;
   padding: 16px;
   border: 1px solid #0094a7;
   margin-left: 10px;
   width: 100%;
 }
+
 .appointButton {
-  padding:16px;
+  padding: 16px;
   background-color: #97237c;
   color: white;
   border: none;
   transition: all 0.5s ease;
 }
+
 .appointButton:hover {
   background-color: #441038;
   transition: all 0.5s ease;
 }
+
 .appointButtonContainer {
   padding: 40px 10px;
 }
+
+/* FOOTER */
+.footerContainer {
+  background-color: #002d3e;
+  margin-top: 0%;
+}
+
+.footerContent {
+  padding: 30px 50px;
+  color: #eee;
+}
+
+.footerContent>h3 {
+  color: #eee;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.078px;
+  font-size: 25px;
+}
+
+.footerContent>p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.078px;
+  width: 200px;
+}
+
+.reserved {
+  border-top: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservedWord {
+  color: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.creator {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.creator>a {
+  color: #eee;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .navWrapper {
@@ -637,10 +708,12 @@
   .amenities>p:nth-child(2) {
     color: #fff;
   }
-  .formControl > form {
+
+  .formControl>form {
     display: inline-block;
   }
-  .formControl > form > input {
+
+  .formControl>form>input {
     margin-top: 20px;
   }
 }
