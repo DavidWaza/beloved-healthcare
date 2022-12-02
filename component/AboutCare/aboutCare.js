@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
+import Image from "next/image";
 
 const AboutCare = () => {
   return (
@@ -9,7 +10,15 @@ const AboutCare = () => {
       <Row className="g-0">
         <Col sm={4}>
           <div className={styles.careContainer}>
-            <div className={styles.AbtcareImg}></div>
+            <div className={styles.AbtcareImg}>
+              <Image
+                src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669830444/pexels-kampus-production-7551610_pt9hoh.jpg"
+                alt="alt"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+              />
+            </div>
           </div>
         </Col>
         <Col sm={8}>

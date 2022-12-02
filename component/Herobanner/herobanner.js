@@ -8,13 +8,6 @@ const Herobanner = () => {
   return (
     <>
       <div className={styles.herobanner}>
-        <Image
-          src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669733419/pexels-kampus-production-7551631_cxqcar.jpg"
-          alt="img"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        />
         <div className={styles.overlay}></div>
         <div className={styles.heroContent}>
           <p>

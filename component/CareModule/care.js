@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
+import Image from 'next/image'
 
 const Care = () => {
   return (
@@ -26,7 +27,15 @@ const Care = () => {
           </Col>
           <Col sm={4}>
             <div className={styles.careContainer}>
-              <div className={styles.careImg}></div>
+              <div className={styles.careImg}>
+                <Image
+                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669810723/pexels-kampus-production-7551667_nkfw4y.jpg"
+                  alt="alt"
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                />
+              </div>
             </div>
           </Col>
         </Row>
