@@ -10,8 +10,6 @@ const Appointment = dynamic(() =>
 );
 import styles from "../styles/Home.module.css";
 
-const renderLoader = () => <p>Loading..</p>;
-
 export default function Home() {
   return (
     <div className={styles.container}>
