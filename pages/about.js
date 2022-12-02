@@ -1,9 +1,17 @@
 import React from "react";
 import abtStyles from "../styles/About.module.css";
+import Head from 'next/head'
 
 const About = () => {
   return (
     <>
+    <Head>
+        <title>BHC | about</title>
+        <meta
+          name="description"
+          content="Home service healthcare, home service, about us"
+        />
+      </Head>
       <div className={abtStyles.hero}>
         <div className={abtStyles.overlay}></div>
         <div className={abtStyles.heroContent}>

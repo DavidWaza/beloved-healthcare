@@ -1,10 +1,18 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Contstyles from "../styles/Contact.module.css";
 import abtStyles from "../styles/About.module.css";
+import Head from 'next/head'
 
 const Contact = () => {
   return (
     <>
+    <Head>
+        <title>BHC | Contact</title>
+        <meta
+          name="description"
+          content="Home service healthcare, home service, contact us, admit"
+        />
+      </Head>
       <div className={Contstyles.contactBg}>
         <div className={Contstyles.overlayContact}></div>
         <div className={abtStyles.heroContent}>
