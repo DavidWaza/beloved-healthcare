@@ -3,7 +3,7 @@ export const footerArr = [
     id: 1,
     title: "Beloved",
     slugOne: "+1 (301) 996-5177",
-    slugTwo: "Belovedhomehealthcare1\n@gmail.com",
+    slugTwo: "Belovedhomehealth\ncare1@gmail.com",
   },
   {
     id: 2,
@@ -22,6 +22,6 @@ export const footerArr = [
   {
     id: 4,
     title: "Visit Us",
-    slugOne: "1101 Euclid avenue Cleveland Ohio 44115.",
+    slugOne: "1101 Euclid avenue\nCleveland Ohio 44115.",
   },
 ];

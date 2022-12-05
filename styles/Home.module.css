@@ -209,7 +209,6 @@
   font-size: 1.2em;
   color: #eee;
   font-family: "Montserrat", sans-serif;
-  width: 500px;
   line-height: 25px;
   letter-spacing: 0.050px;
 }
@@ -218,7 +217,7 @@
 .button {
   background-color: #0094a7;
   padding: 15px 30px;
-  width: 40%;
+  margin-bottom: 30px;
   border: none;
   box-sizing: border-box;
   display: inline-block;
@@ -551,6 +550,7 @@
 .footerContainer {
   background-color: #002d3e;
   margin-top: 0%;
+  overflow: hidden;
 }
 
 .footerContent {
@@ -654,26 +654,28 @@
     z-index: 1;
   }
 
+
   .heroContent>p:nth-child(2) {
-    width: 270px;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
+    padding-right: 9px;
+    padding-left: 9px;
   }
 
   .heroContent>p:nth-child(1) {
     font-size: 26px;
-    padding: 0px 2px;
-    display: flex;
-    justify-content: center;
+    padding-right: 9px;
+    padding-left: 9px;
   }
 
   .button {
-    width: 100%;
+    width: 50%;
+    margin-right: 9px;
+    margin-left: 9px;
   }
 
   .herobanner {
     background-position: center;
+    height: 60vh;
   }
 
   .careImg {
@@ -699,23 +701,15 @@
   }
 
   .careHeader>p:nth-child(1) {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.4em;
-    color: #eee;
-    text-transform: uppercase;
+    font-size: 18px;
   }
 
   .careHeader>p:nth-child(2) {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5em;
-    color: #f3f3f3;
-    z-index: 100;
+    font-size: 30px;
   }
 
   .careHeader>p:nth-child(3) {
-    font-family: "DM Sans", sans-serif;
-    font-size: 18px;
-    color: #fff;
+    font-size: 22px;
   }
 
   .careHeader {
@@ -804,6 +798,25 @@
     margin-top: 60px;
   }
 
+  .herobanner {
+    height: 50vh;
+  }
+  .careHeader>p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .careHeader>p:nth-child(2) {
+    font-size: 30px;
+  }
+
+  .careHeader>p:nth-child(3) {
+    font-size: 22px;
+  }
+  .careImg {
+    height: 40vh;
+    position: relative;
+  }
+
 }
 
 @media screen and (width: 912px) {
@@ -813,6 +826,10 @@
 
   .smallNav>ol>li {
     margin-top: 60px;
+  }
+
+  .herobanner {
+    height: 50vh;
   }
 
 }

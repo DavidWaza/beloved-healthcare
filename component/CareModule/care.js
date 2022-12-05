@@ -2,14 +2,15 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
-import Image from 'next/image'
+import Image from "next/image";
+import Link from "next/link"
 
 const Care = () => {
   return (
     <>
       <Container>
         <Row className="g-0">
-          <Col sm={8}>
+          <Col sm={8} lg={8}>
             <div className={styles.careContainer}>
               <div className={styles.overlayCare}></div>
               <div className={styles.careHeader}>
@@ -21,11 +22,13 @@ const Care = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
                   Ut enim ad minim nostrud.
                 </p>
-                <Button title="Get a specialist" />
+                <Link href="/contact">
+                  <Button title="Get a specialist" />
+                </Link>
               </div>
             </div>
           </Col>
-          <Col sm={4}>
+          <Col sm={12} lg={4}>
             <div className={styles.careContainer}>
               <div className={styles.careImg}>
                 <Image

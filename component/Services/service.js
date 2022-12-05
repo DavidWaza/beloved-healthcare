@@ -7,7 +7,7 @@ const Service = () => {
   return (
     <Container>
       <Row className="g-3">
-        <Col sm={4}>
+        <Col sm={6} lg={4}>
           <div className={styles.serviceContainer}>
             <div className={styles.serviceCardBlue}>
               <div className={styles.serviceContent}>
@@ -30,7 +30,7 @@ const Service = () => {
             </div>
           </div>
         </Col>
-        <Col sm={4}>
+        <Col sm={6} lg={4}>
           <div className={styles.serviceContainer}>
             <div className={styles.serviceCardTeal}>
               <div className={styles.serviceContent}>
@@ -53,7 +53,7 @@ const Service = () => {
             </div>
           </div>
         </Col>
-        <Col sm={4}>
+        <Col sm={6} lg={4}>
           <div className={styles.serviceContainer}>
             <div className={styles.serviceCardWhite}>
               <div className={styles.serviceTextThird}>

@@ -97,6 +97,29 @@
     margin: 10px 0px;
 }
 
+.successContainer {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.successContent {
+    display: flex;
+    justify-content: center;
+}
+
+.success>p:nth-child(1) {
+    font-size: 3em;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.success>P:nth-child(2) {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .imgWrapper {
         display: none;

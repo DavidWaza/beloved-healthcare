@@ -3,6 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
 import Image from "next/image";
+import Link from "next/link"
 
 const AboutCare = () => {
   return (
@@ -48,7 +49,9 @@ const AboutCare = () => {
                   </div>
                 </Col>
               </Row>
-              <Button title="Get a specialist" />
+              <Link href="/contact">
+                  <Button title="Get a specialist" />
+                </Link>
             </div>
           </div>
         </Col>

@@ -15,11 +15,11 @@ const Herobanner = () => {
           </p>
           <p>
             {" "}
-            We offer a person-centered approach to keep you safe & sound at
-            home, instead of anywhere else.
+            We offer a person-centered approach to keep you <br /> safe & sound at
+            home, instead of <br />anywhere else.
           </p>
           <div>
-            <Link href="/">
+            <Link href="/contact">
               <Button title="Get a specialist" />
             </Link>
           </div>
