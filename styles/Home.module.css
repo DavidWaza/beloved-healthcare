@@ -516,7 +516,9 @@
 }
 
 .formControl>form {
-  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: 1rem;
   padding-right: 30px;
   padding-top: 5%;
 }
@@ -525,12 +527,12 @@
   background-color: #fff;
   padding: 16px;
   border: 1px solid #0094a7;
-  margin-left: 10px;
   width: 100%;
 }
 
+
 .appointButton {
-  padding: 16px;
+  padding:  16px;
   background-color: #97237c;
   color: white;
   border: none;
@@ -542,9 +544,6 @@
   transition: all 0.5s ease;
 }
 
-.appointButtonContainer {
-  padding: 40px 10px;
-}
 
 /* FOOTER */
 .footerContainer {
@@ -737,7 +736,7 @@
   .formControl>form>input {
     margin-top: 20px;
   }
-
+ 
   .featuresContent>p:nth-child(1) {
     font-size: 1.3em;
     text-align: center;
