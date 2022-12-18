@@ -45,9 +45,10 @@ const Service = () => {
               <div className={styles.serviceText}>
                 <p>Guaranteed Satisfaction</p>
                 <p>
-                  We produce the finest and most caring house care
-                  specialists/nurse who are keen on bringing a smile to our
-                  customers faces.
+                  At beloved home care, our clients satisfaction is our priority
+                  therefore, we work with the best hands who have proven their
+                  worth over and again .They are passionate about your health
+                  and endlesly work towards your maximum satisfaction.
                 </p>
               </div>
             </div>
@@ -62,9 +63,9 @@ const Service = () => {
               </div>
               <div className={styles.serviceTextSlug}>
                 <p>
-                  We produce the finest and most caring house care
-                  specialists/nurse who are keen on bringing a smile to our
-                  customers faces.
+                  Beloved home care personnels are health care specialists with
+                  over three years of work experience in their field. Hence, our
+                  clients have no fear of amateur inadequacies.
                 </p>
               </div>
             </div>

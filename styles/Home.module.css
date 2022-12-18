@@ -177,9 +177,9 @@
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669733419/pexels-kampus-production-7551631_cxqcar.jpg");
   background-position: 1% 50%;
   background-size: cover;
-  height: 70vh;
   position: relative;
   background-attachment: fixed;
+  padding: 60% 0px;
 }
 
 .overlay {
@@ -194,12 +194,12 @@
 
 .heroContent {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 9%;
 }
 
 .heroContent>p:nth-child(1) {
-  font-size: 3.5em;
+  font-size: 3.3em;
   color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
@@ -233,7 +233,9 @@
   margin-top: 15px;
   position: relative;
 }
-
+.heroButtonContainer {
+  width: 70%;
+}
 .button:before {
   animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
@@ -519,7 +521,6 @@
   grid-template-columns: repeat(2, 1fr);
   display: grid;
   gap: 1rem;
-  padding-right: 30px;
   padding-top: 5%;
 }
 
@@ -667,9 +668,8 @@
   }
 
   .button {
-    width: 50%;
-    margin-right: 9px;
-    margin-left: 9px;
+    margin: 9px auto;
+    width: -webkit-fill-available;
   }
 
   .herobanner {
@@ -701,10 +701,12 @@
 
   .careHeader>p:nth-child(1) {
     font-size: 18px;
+    color: #f3f3f3;
   }
 
   .careHeader>p:nth-child(2) {
     font-size: 30px;
+    color: #f3f3f3;
   }
 
   .careHeader>p:nth-child(3) {
@@ -765,20 +767,26 @@
     font-size: 2em;
     text-align: center;
   }
-
+  .appointButton {
+    margin-top: 20px;
+    width: -webkit-fill-available;
+  }
   .careHeader>p:nth-child(1) {
     font-size: 1.2em;
     text-align: center;
+    color: #f3f3f3;
   }
 
   .careHeader>p:nth-child(2) {
     font-size: 1.4em;
     text-align: center;
+    color: #f3f3f3;
   }
 
   .careHeader>p:nth-child(3) {
     font-size: 17px;
     text-align: center;
+    color: #f3f3f3;
   }
 
   .serviceContent,
@@ -799,6 +807,7 @@
 
   .herobanner {
     height: 50vh;
+    padding: 0%;
   }
   .careHeader>p:nth-child(1) {
     font-size: 18px;
@@ -829,6 +838,7 @@
 
   .herobanner {
     height: 50vh;
+    padding: 0%;
   }
 
 }

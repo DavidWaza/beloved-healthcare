@@ -3,7 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 
 const AboutCare = () => {
   return (
@@ -29,9 +29,14 @@ const AboutCare = () => {
               <p>About us</p>
               <p> We Take Care of Your Problems Carefully.</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                Beloved home care service is a health care service specialized
+                in helping you take care of your sick or aged loved ones at
+                home. We save you the inconviences that comes with caring with
+                your aged or sick ones. It is our responsibility to fill in that
+                spot you might not be able to fill as a result of work ,time or
+                any form of restraint . The beautiful thing about us is that we
+                are structured for your convenience . you don&apos;t have to come to
+                us rather, we come to you .
               </p>
               <Row>
                 <Col sm={6}>
@@ -50,8 +55,8 @@ const AboutCare = () => {
                 </Col>
               </Row>
               <Link href="/contact">
-                  <Button title="Get a specialist" />
-                </Link>
+                <Button title="Get a specialist" />
+              </Link>
             </div>
           </div>
         </Col>
