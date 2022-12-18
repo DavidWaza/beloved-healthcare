@@ -179,7 +179,8 @@
   background-size: cover;
   position: relative;
   background-attachment: fixed;
-  padding: 60% 0px;
+  /* padding: 60% 0px; */
+  height: 70vh;
 }
 
 .overlay {
@@ -674,7 +675,7 @@
 
   .herobanner {
     background-position: center;
-    height: 60vh;
+    height: 65vh;
   }
 
   .careImg {

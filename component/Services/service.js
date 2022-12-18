@@ -47,8 +47,7 @@ const Service = () => {
                 <p>
                   At beloved home care, our clients satisfaction is our priority
                   therefore, we work with the best hands who have proven their
-                  worth over and again .They are passionate about your health
-                  and endlesly work towards your maximum satisfaction.
+                  worth over and again .
                 </p>
               </div>
             </div>

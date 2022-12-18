@@ -27,7 +27,7 @@ const Care = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} lg={4}>
+          <Col sm={4} lg={4}>
             <div className={styles.careContainer}>
               <div className={styles.careImg}>
                 <Image
