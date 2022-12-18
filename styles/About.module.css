@@ -50,12 +50,12 @@
 }
 
 .title>p:nth-child(3) {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: "DM Sans", sans-serif;
     display: flex;
     justify-content: center;
     color: #212121;
-    padding: 0px 60px;
+    padding: 30px 60px;
 }
 
 .whyUs {

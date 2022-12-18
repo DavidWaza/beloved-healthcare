@@ -35,7 +35,7 @@
 }
 
 .listParags>p:nth-child(1) {
-  color: #0094a7;
+  color: #34beb9;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -216,7 +216,7 @@
 
 /* BUTTON */
 .button {
-  background-color: #0094a7;
+  background: linear-gradient(-135deg,#34beb9,#1a7673) #1a7673 no-repeat;
   padding: 15px 30px;
   margin-bottom: 30px;
   border: none;

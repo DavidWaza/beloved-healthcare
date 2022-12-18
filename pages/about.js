@@ -1,11 +1,11 @@
 import React from "react";
 import abtStyles from "../styles/About.module.css";
-import Head from 'next/head'
+import Head from "next/head";
 
 const About = () => {
   return (
     <>
-    <Head>
+      <Head>
         <title>BHC | about</title>
         <meta
           name="description"
@@ -25,20 +25,14 @@ const About = () => {
             We Take Care of Your <br /> Problems Carefully
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            nisl velit, sollicitudin sit amet ipsum nec, tincidunt convallis
-            sapien. In eu volutpat est. Sed malesuada, orci et vehicula viverra,
-            lorem magna accumsan purus, id facilisis libero eros a nisl. Vivamus
-            ut ligula nec ligula fermentum vestibulum. Curabitur bibendum nulla
-            eget mi tempor efficitur. Vestibulum consectetur turpis et massa
-            semper, ut maximus neque luctus. Nulla blandit laoreet nisi sed
-            rhoncus. Fusce elementum dictum consectetur. Suspendisse potenti.
-            Sed vel erat ipsum. Donec sed lacinia arcu, sit amet varius dolor.
-            Nulla id nisi eros. Nam et tortor volutpat, malesuada libero quis,
-            porta enim. Cras non ullamcorper purus. Nulla facilisi. Donec
-            laoreet varius eros sit amet pulvinar. Ut vel nunc imperdiet,
-            commodo erat at, aliquam velit. Vivamus et nunc sit amet tellus
-            pulvinar bibendum vitae quis ex.
+            Beloved home care service is a health care service specialized in
+            helping you take care of your sick or aged loved ones at home. We
+            save you the inconviences that comes with caring with your aged or
+            sick ones. It is our responsibility to fill in that spot you might
+            not be able to fill as a result of work,time or any form of
+            restraint . The beautiful thing about us is that we are structured
+            for your convenience. you don&apos;t have to come to us rather, we come
+            to you.
           </p>
         </div>
       </div>
