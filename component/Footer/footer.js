@@ -13,10 +13,10 @@ const Footer = () => {
             {footerArr.map((footer) => (
               <Col sm={3} key={footer.id}>
                 <div className={styles.footerContent}>
-                  <h3>{footer.title}</h3>
-                  <p>{footer.slugOne}</p>
-                  <p>{footer.slugTwo}</p>
-                  <p>{footer.slugThree}</p>
+                    <h3>{footer.title}</h3>
+                    <p>{footer.slugOne}</p>
+                    <p>{footer.slugTwo}</p>
+                    <p>{footer.slugThree}</p>
                 </div>
               </Col>
             ))}
@@ -24,11 +24,6 @@ const Footer = () => {
           <div className={styles.reserved}>
             <div className={styles.reservedWord}>
               <p>Copyright © 2022</p>
-            </div>
-            <div className={styles.creator}>
-              <Link href="">
-                created by <span className={styles.span}>davidWaza</span>
-              </Link>
             </div>
           </div>
         </Container>
