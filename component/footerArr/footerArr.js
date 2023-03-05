@@ -5,13 +5,13 @@ export const footerArr = [
     slugOne: "+1 (301) 996-5177",
     slugTwo: "Belovedhomehealth\ncare1@gmail.com",
   },
-  {
-    id: 2,
-    title: "Quick links",
-    slugOne: "Home",
-    slugTwo: "About Us",
-    slugThree: "Contact Us",
-  },
+  // {
+  //   id: 2,
+  //   title: "Quick links",
+  //   slugOne: "Home",
+  //   slugTwo: "About Us",
+  //   slugThree: "Contact Us",
+  // },
   {
     id: 3,
     title: "Our Services",

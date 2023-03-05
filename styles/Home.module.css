@@ -179,8 +179,7 @@
   background-size: cover;
   position: relative;
   background-attachment: fixed;
-  /* padding: 60% 0px; */
-  height: 70vh;
+  height: 600px;
 }
 
 .overlay {
@@ -195,19 +194,20 @@
 
 .heroContent {
   position: absolute;
-  top: 15%;
-  left: 9%;
+  top: 20%;
+  left: 10%;
 }
 
 .heroContent>p:nth-child(1) {
-  font-size: 3.3em;
+  font-size: clamp(3rem, 0.8rem + 1.5vw, 2rem);
   color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
+  max-inline-size: 18ch;
 }
 
 .heroContent>p:nth-child(2) {
-  font-size: 1.2em;
+  font-size: clamp(1.2rem, 0.8rem + 1.5vw, 1rem);
   color: #eee;
   font-family: "Montserrat", sans-serif;
   line-height: 25px;
@@ -216,7 +216,7 @@
 
 /* BUTTON */
 .button {
-  background: linear-gradient(-135deg,#34beb9,#1a7673) #1a7673 no-repeat;
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
   padding: 15px 30px;
   margin-bottom: 30px;
   border: none;
@@ -234,9 +234,7 @@
   margin-top: 15px;
   position: relative;
 }
-.heroButtonContainer {
-  width: 70%;
-}
+
 .button:before {
   animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
@@ -534,7 +532,7 @@
 
 
 .appointButton {
-  padding:  16px;
+  padding: 16px;
   background-color: #97237c;
   color: white;
   border: none;
@@ -607,7 +605,8 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+/* (MOBILE & TABLET) */
+@media (max-width: 1024px) {
   .navWrapper {
     display: none;
   }
@@ -655,19 +654,6 @@
     z-index: 1;
   }
 
-
-  .heroContent>p:nth-child(2) {
-    font-size: 18px;
-    padding-right: 9px;
-    padding-left: 9px;
-  }
-
-  .heroContent>p:nth-child(1) {
-    font-size: 26px;
-    padding-right: 9px;
-    padding-left: 9px;
-  }
-
   .button {
     margin: 9px auto;
     width: -webkit-fill-available;
@@ -675,7 +661,7 @@
 
   .herobanner {
     background-position: center;
-    height: 65vh;
+    height: 500px;
   }
 
   .careImg {
@@ -698,6 +684,26 @@
     height: 100%;
     background-color: #212121;
     opacity: 0.6;
+  }
+
+  .heroContent {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+  }
+
+  .heroContent>p:nth-child(1) {
+    font-size: 1.5rem;
+  }
+
+  .heroContent:p:nth-child(2) {
+    font-size: 0.8rem;
+  }
+
+  .heroButtonContainer {
+    display: flex;
+    justify-content: center;
   }
 
   .careHeader>p:nth-child(1) {
@@ -739,7 +745,7 @@
   .formControl>form>input {
     margin-top: 20px;
   }
- 
+
   .featuresContent>p:nth-child(1) {
     font-size: 1.3em;
     text-align: center;
@@ -768,11 +774,13 @@
     font-size: 2em;
     text-align: center;
   }
+
   .appointButton {
     margin-top: 20px;
     width: -webkit-fill-available;
   }
-  .careHeader>p:nth-child(1) {
+
+  /* .careHeader>p:nth-child(1) {
     font-size: 1.2em;
     text-align: center;
     color: #f3f3f3;
@@ -788,58 +796,10 @@
     font-size: 17px;
     text-align: center;
     color: #f3f3f3;
-  }
+  } */
 
   .serviceContent,
   .serviceText {
     text-align: center;
   }
-}
-
-
-@media screen and (width: 820px) {
-  .navWrapper {
-    height: 15vh;
-  }
-
-  .smallNav>ol>li {
-    margin-top: 60px;
-  }
-
-  .herobanner {
-    height: 50vh;
-    padding: 0%;
-  }
-  .careHeader>p:nth-child(1) {
-    font-size: 18px;
-  }
-
-  .careHeader>p:nth-child(2) {
-    font-size: 30px;
-  }
-
-  .careHeader>p:nth-child(3) {
-    font-size: 22px;
-  }
-  .careImg {
-    height: 40vh;
-    position: relative;
-  }
-
-}
-
-@media screen and (width: 912px) {
-  .navWrapper {
-    height: 15vh;
-  }
-
-  .smallNav>ol>li {
-    margin-top: 60px;
-  }
-
-  .herobanner {
-    height: 50vh;
-    padding: 0%;
-  }
-
 }

@@ -2,8 +2,6 @@ import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Home.module.css";
 import Button from "../Button/button";
-import Image from "next/image";
-import {Row, Col} from 'react-bootstrap'
 
 const Herobanner = () => {
   return (
@@ -12,7 +10,7 @@ const Herobanner = () => {
         <div className={styles.overlay}></div>
         <div className={styles.heroContent}>
           <p>
-            We care for you, <br /> we take care of your health <br />
+            We care for you, we take care of your health 
             anywhere, anytime.
           </p>
           <p>
@@ -21,11 +19,11 @@ const Herobanner = () => {
             at home, instead of <br />
             anywhere else.
           </p>
-              <div className={styles.heroButtonContainer}>
-                <Link href="/contact">
-                  <Button title="Get a specialist" />
-                </Link>
-              </div>
+          <div className={styles.heroButtonContainer}>
+            <Link href="/contact">
+              <Button title="Get a specialist" />
+            </Link>
+          </div>
         </div>
       </div>
     </>
