@@ -553,7 +553,9 @@
 }
 
 .footerContent {
-  padding: 30px 50px;
+  padding: 30px 0px;
+  display: grid;
+  place-content: center;
   color: #eee;
 }
 
@@ -718,6 +720,7 @@
 
   .careHeader>p:nth-child(3) {
     font-size: 22px;
+    color: #fff;
   }
 
   .careHeader {

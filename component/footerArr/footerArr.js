@@ -19,9 +19,9 @@ export const footerArr = [
     slugTwo: "Intensive Care",
     slugThree: "Senior Care",
   },
-  {
-    id: 4,
-    title: "Visit Us",
-    slugOne: "1101 Euclid avenue\nCleveland Ohio 44115.",
-  },
+  // {
+  //   id: 4,
+  //   title: "Visit Us",
+  //   slugOne: "1101 Euclid avenue\nCleveland Ohio 44115.",
+  // },
 ];

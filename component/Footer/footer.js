@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
           <Row>
             {footerArr.map((footer) => (
-              <Col sm={3} key={footer.id}>
+              <Col sm={6} key={footer.id}>
                 <div className={styles.footerContent}>
                     <h3>{footer.title}</h3>
                     <p>{footer.slugOne}</p>
