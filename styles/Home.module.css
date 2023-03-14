@@ -576,8 +576,7 @@
 
 .reserved {
   border-top: 1px solid #f3f3f3;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .reservedWord {
@@ -586,8 +585,6 @@
   padding-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  display: flex;
-  flex-direction: flex-start;
 }
 
 .creator {
@@ -711,16 +708,19 @@
   .careHeader>p:nth-child(1) {
     font-size: 18px;
     color: #f3f3f3;
+    text-align: center;
   }
 
   .careHeader>p:nth-child(2) {
     font-size: 30px;
     color: #f3f3f3;
+    text-align: center;
   }
 
   .careHeader>p:nth-child(3) {
     font-size: 22px;
     color: #fff;
+    text-align: center;
   }
 
   .careHeader {
@@ -782,27 +782,11 @@
     margin-top: 20px;
     width: -webkit-fill-available;
   }
-
-  /* .careHeader>p:nth-child(1) {
-    font-size: 1.2em;
-    text-align: center;
-    color: #f3f3f3;
-  }
-
-  .careHeader>p:nth-child(2) {
-    font-size: 1.4em;
-    text-align: center;
-    color: #f3f3f3;
-  }
-
-  .careHeader>p:nth-child(3) {
-    font-size: 17px;
-    text-align: center;
-    color: #f3f3f3;
-  } */
-
   .serviceContent,
   .serviceText {
+    text-align: center;
+  }
+  .footerContent{
     text-align: center;
   }
 }
